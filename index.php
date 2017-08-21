@@ -7,11 +7,16 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Hello</title>
     </head>
-    <body>
+    <body><?php
+        include 'head.php';
+        ?>
         <?php
-        // put your code here
+        include 'menu.php';
+        ?>
+        <?php
+        include 'script.php';
         ?>
     </body>
 </html>
