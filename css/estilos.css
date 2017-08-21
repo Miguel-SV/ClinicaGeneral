@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+main{
+    width: 80%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 0%;
+}
+
+
+.card-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.c{
+   margin-top: 500px;
+    
+}
+
+
+/*.row{
+    text-align: center;
+}
+*/
+.card-panel{
+    box-shadow: 5px 5px 5px #999;
+}
+
+
+textarea#styled {
+	width: 80%;
+	height: 320px;
+	border: 10px solid #3F51B5;
+	padding: 10px;
+    color: #1A237E;
+	font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #E8EAF6;
+}
+
+textarea#styled2 {
+	width: 80%;
+	height: 150px;
+	border: 10px solid #3F51B5;
+	padding: 10px;
+    color: #1A237E;
+	font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #E8EAF6;
+}
+
+.contenedor{
+    background: #EEEEEE;
+    
+}
+.txtDescripcion{
+    color: black;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.autores{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.txtEtiquetas{
+    color: black;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.txtEtiquetas h4{
+    text-align: center;
+}
+.tabl{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.minav{
+    height: auto;
+}
+
+.Milogo{
+    display: flex;
+    justify-content: space-between;
+}
+.Milogo .logo1{
+    width: 100px;
+    height: 100px; 
+    
+}
+
+.Milogo .logo2{
+    width: 200px;
+    height: 80px; 
+    margin-top: 6px;
+}
+.colorMenu{
+     background-color: #9d2721 !important;
+}
+
+
+
+
+@media screen and (max-width:410px){
+    body{
+        margin: 0;
+    }
+    main{
+        margin-top: 30%;
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    textarea#styled {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    textarea#styled2 {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .imgPrin{
+        width: 100%;
+    }
+    .txtEtiquetas{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .tabl{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .todo{
+        width: 100%;
+    }
+}
+

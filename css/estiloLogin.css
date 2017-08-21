@@ -1,0 +1,36 @@
+body{
+   
+   background-color: #eceff1;
+}
+
+.contenedor{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+/*MEDIA QUERY PARA DISPOSITIVOS SUPERIORES A 480PX*/
+@media (min-width: 480px) {
+    .contenedor{
+        width: 75%;
+    }
+    .conten{
+        width: 85%;
+    }
+    
+}
+
+/*MEDIA QUERY PARA DISPOSITIVOS SUPERIORES A 768PX*/
+
+@media (min-width: 768px) {
+  
+    .conten{
+        width: 65%;
+    }
+}
