@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect("localhost","root", "corei7", "bdss");
+$conexion = mysqli_connect("localhost","root", "Clave", "NombreDeBD");
 
 /*
 if (!$conexion){
