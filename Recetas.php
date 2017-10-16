@@ -18,21 +18,19 @@ and open the template in the editor.
         <form action="val_NewMedicamento.php" method="post">
             <div class="row contenedor">
                 <div class="card-panel  white conten">
-                    <h4 class="center">Nuevo Medicamento</h4>
-                    <hr>
+
                     <div>
+                        <h4 class="center">Datos de Recetas</h4>
+                        <hr>
                         <div class="input-field col s12">
-                            <input placeholder="ejm. Epamin" id="name" type="text" class="validate" name="nombre">
-                            <label for="first_name">Nombres del medicamento</label>
+                            <input placeholder="ejm. Dilatin" id="name" type="text" class="validate" name="nombre">
+                            <label for="first_name">Nombre de Medicamento</label>
                         </div>
                         <div class="input-field col s12">
-                            <input placeholder="ejm. Epilepsias" id="last_names" type="text" class="validate" name="descripcion">
-                            <label for="last_name">Descripcion</label>
+                            <input placeholder="ejm. 3 al dia" id="last_names" type="text" class="validate" name="descripcion">
+                            <label for="last_name">Dosis Asignadas</label>
                         </div>
-                        <div class="input-field col s12">
-                            <input placeholder="ejm. 23" id="user" type="text" class="validate" name="cantidad">
-                            <label for="user">Cantidad</label>
-                        </div>
+                        
                     </div>
                     <div class="center">
                         <button class="waves-effect waves-light btn" type="submit">Guardar</button>
