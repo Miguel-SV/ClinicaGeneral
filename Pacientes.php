@@ -15,7 +15,7 @@ and open the template in the editor.
         ?>
         
         
-        <form action="val_NewMedicamento.php" method="post">
+        <form action="val_NuevoPaciente.php" method="post">
             <div class="row contenedor">
                 <div class="card-panel  white conten">
 
@@ -26,21 +26,21 @@ and open the template in the editor.
                             <input placeholder="ejm. Juan Perez" id="name" type="text" class="validate" name="nombre">
                             <label for="first_name">Nombres Completo del Paciente</label>
                         </div>
-                        <div class="input-field col s6">
-                            <input placeholder="ejm. Epilepsias" id="last_names" type="text" class="validate" name="descripcion">
-                            <label for="last_name">Numero de DUI</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <input placeholder="ejm. 78435643" id="last_names" type="text" class="validate" name="descripcion">
-                            <label for="last_name">Numero de Telefono</label>
-                        </div>
-                        <div class="input-field col s3">
-                            <input placeholder="ejm. 23/04/1992" id="user" type="text" class="validate" name="cantidad">
+                         <div class="input-field col s3">
+                            <input placeholder="ejm. 23/04/1992" id="user" type="text" class="validate" name="fecha">
                             <label for="user">Fecha de Nacimiento</label>
                         </div>
+                        <div class="input-field col s6">
+                            <input placeholder="ejm. 78435643" id="last_names" type="text" class="validate" name="tel">
+                            <label for="last_name">Numero de Telefono</label>
+                        </div>
                         <div class="input-field col s9">
-                            <input placeholder="ejm. Juana Perez" id="user" type="text" class="validate" name="cantidad">
+                            <input placeholder="ejm. Juana Perez" id="user" type="text" class="validate" name="responsable">
                             <label for="user">Nombre de Responsable</label>
+                        </div>
+                         <div class="input-field col s9">
+                            <input placeholder="" id="user" type="text" class="validate" name="sexo">
+                            <label for="user">Sexo</label>
                         </div>
                     </div>
                     <div class="center">

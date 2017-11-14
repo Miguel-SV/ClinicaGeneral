@@ -15,7 +15,7 @@ and open the template in the editor.
         ?>
         
         
-        <form action="val_NewMedicamento.php" method="post">
+        <form action="val_NuevaConsulta.php" method="post">
             <div class="row contenedor">
                 <div class="card-panel  white conten">
 
@@ -23,7 +23,7 @@ and open the template in the editor.
                         <h4 class="center">Datos de Consulta</h4>
                         <hr>
                         <div class="input-field col s12">
-                            <input placeholder="ejm. Dolor de Cabeza" id="name" type="text" class="validate" name="nombre">
+                            <input placeholder="ejm. Dolor de Cabeza" id="name" type="text" class="validate" name="sintomas">
                             <label for="first_name">Sintomas</label>
                         </div>
                         <div class="input-field col s12">

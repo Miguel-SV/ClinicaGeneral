@@ -13,8 +13,7 @@ and open the template in the editor.
         <?php
         include 'menu.php';
         ?>
-        
-        
+ 
         <form action="val_NewMedicamento.php" method="post">
             <div class="row contenedor">
                 <div class="card-panel  white conten">
