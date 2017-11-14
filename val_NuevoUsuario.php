@@ -1,9 +1,10 @@
 <?php
 
 include 'cn.php';
+session_start();
 
 $Usuario=$_POST['usuario'];
-$Nombre=$_POST['nombre'];
+$Nombre=$_POST['Nombre'];
 $Direccion=$_POST['direccion'];
 $Fecha=$_POST['FechNac'];
 $Sexo=$_POST['sexo'];
@@ -11,7 +12,11 @@ $Telefono=$_POST['tel'];
 $Correo=$_POST['correo'];
 $Dui=$_POST['dui'];
 $Nit=$_POST['nit'];
-$insertar = "INSERT INTO usuarios (Usuario, Nombre, FechaNac, Sexo, TelMovil, Email, DUI, NIT) VALUES ('$Usuario','$Nombre','$direccion','$Fecha','$Sexo','$Telefono','$Correo','$Dui','$Nit')";
+$clave=$_POST['clave'];
+$admin=$_SESSION['usuario'];
+
+
+$insertar = "INSERT INTO usuarios (Usuario, Nombre, Direccion, FechaNac, Sexo, TelMovil, Email, DUI, NIT, clave, administradores_Usuario) VALUES ('$Usuario','$Nombre','$Direccion','$Fecha','$Sexo','$Telefono','$Correo','$Dui','$Nit','$clave','$admin')";
 
 
 //Ejecutar consultas
@@ -29,7 +34,12 @@ if(!$result){
     </script>
     ';
 }
+
+ 
 //Cerrar conexion
+
+
+
 mysqli_close($conexion);
 
 

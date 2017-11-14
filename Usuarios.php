@@ -15,7 +15,7 @@ and open the template in the editor.
         ?>
         
         
-        <form action="val_NuevoUsuario.php.php" method="post">
+        <form action="val_NuevoUsuario.php" method="post">
             <div class="row contenedor">
                 <div class="card-panel  white conten">
 
@@ -34,12 +34,16 @@ and open the template in the editor.
                             <input placeholder="ejm. Santo Domingo" id="last_names" type="text" class="validate" name="direccion">
                             <label for="last_name">Direccion</label>
                         </div>
-                        <div class="input-field col s3">
+                        <div class="input-field col s4">
                             <input placeholder="ejm. 20/07/1996" id="user" type="text" class="validate" name="FechNac">
                             <label for="user">Fecha de Nacimiento</label>
                         </div>
-                        <div class="input-field col s9">
+                        <div class="input-field col s4">
                             <input placeholder="ejm. Masculino" id="user" type="text" class="validate" name="sexo">
+                            <label for="user">Sexo</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input placeholder="ejm. *****" id="user" type="text" class="validate" name="clave">
                             <label for="user">Sexo</label>
                         </div>
                         <div class="input-field col s6">
