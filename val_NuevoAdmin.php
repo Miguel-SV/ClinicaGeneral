@@ -18,13 +18,12 @@ $insertar = "INSERT INTO administradores(Usuario, Nombre, FechaNac, Especializac
 //Ejecutar consultas
 $result = mysqli_query($conexion, $insertar);
 if(!$result){
-    /*echo '<script>
+    echo '<script>
     alert("Error al registrarse");
     window.history.go(-1);
     </script>
     ';
-     * 
-     */
+     
 }else{
     echo '<script>
     alert("A sido registrado exitosamente");
